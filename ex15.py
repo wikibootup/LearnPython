@@ -13,3 +13,6 @@ file_again = raw_input("> ")	# Why 2 times input and output ?
 txt_again = open(file_again)
 
 print txt_again.read()
+
+txt.close()
+txt_again.close()
